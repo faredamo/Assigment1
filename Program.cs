@@ -32,5 +32,12 @@ class Program
         Console.WriteLine(myBook.GetType());
 
         #endregion
+
+        #region Task 3
+
+        // Compile-time error,string value can't be assigned directly to an int variable
+        int pages = 464;
+
+        #endregion
     }
-}
+}  
