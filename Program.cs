@@ -1,5 +1,4 @@
-﻿#region Task 1
-using System;
+﻿using System;
 class Book
 {
     public string Title;
@@ -13,9 +12,25 @@ class Program
 {
     static void Main()
     {
-        object myBook = new Book { Title = "WORLD WAR||", Pages = 400 };
+        #region Task 1
+
+        object myBook = new Book
+        {
+            Title = "WORLD WAR II",
+            Pages = 400
+        };
 
         Console.WriteLine(myBook);
+
+        #endregion
+
+        #region Task 2
+
+        Console.WriteLine(myBook.ToString());
+        Console.WriteLine(myBook.Equals(myBook));
+        Console.WriteLine(myBook.GetHashCode());
+        Console.WriteLine(myBook.GetType());
+
+        #endregion
     }
 }
-#endregion
