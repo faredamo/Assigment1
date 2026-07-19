@@ -46,7 +46,7 @@ class Program
         {
             int f = 10;
             int a = 0;
-            int result = f / a ;
+            int result = f / a;
         }
         catch (DivideByZeroException)
         {
@@ -56,6 +56,15 @@ class Program
         {
             Console.WriteLine("Done");
         }
+
+        #endregion
+
+        #region Task 5
+
+        int paperpages = 300;
+        double number = paperpages;
+
+        Console.WriteLine(number);
 
         #endregion
     }
