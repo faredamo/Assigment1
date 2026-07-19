@@ -39,5 +39,24 @@ class Program
         int pages = 464;
 
         #endregion
+
+        #region Task 4
+
+        try
+        {
+            int f = 10;
+            int a = 0;
+            int result = f / a ;
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("Cannot divide by zero");
+        }
+        finally
+        {
+            Console.WriteLine("Done");
+        }
+
+        #endregion
     }
-}  
+}
