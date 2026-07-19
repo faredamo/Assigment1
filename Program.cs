@@ -107,12 +107,17 @@ class Program
         #endregion
 
         #region Task 11
-        int? year = null;
+        int year = null;
 
         Console.WriteLine(year.HasValue);
         year = 2023;
 
         Console.WriteLine(year);
+
+        #endregion
+        #region Task 12
+        string reviewer = null;
+        Console.WriteLine(reviewer == null);
 
         #endregion
     }
