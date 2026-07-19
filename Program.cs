@@ -93,5 +93,17 @@ class Program
         Console.WriteLine(pageString.GetType());
 
         #endregion
+
+        #region Task 10
+
+
+        int copies = 100;
+        object box = copies;
+        int newCopies = (int)box;
+
+        Console.WriteLine(copies);
+        Console.WriteLine(newCopies);
+
+        #endregion
     }
 }
