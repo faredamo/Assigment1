@@ -105,5 +105,15 @@ class Program
         Console.WriteLine(newCopies);
 
         #endregion
+
+        #region Task 11
+        int? year = null;
+
+        Console.WriteLine(year.HasValue);
+        year = 2023;
+
+        Console.WriteLine(year);
+
+        #endregion
     }
 }
