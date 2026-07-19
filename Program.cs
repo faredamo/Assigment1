@@ -67,5 +67,14 @@ class Program
         Console.WriteLine(number);
 
         #endregion
+
+        #region Task 6
+
+        double price = 49.99;
+        int newPrice = (int)price;
+
+        Console.WriteLine(newPrice);
+
+        #endregion
     }
 }
