@@ -120,5 +120,11 @@ class Program
         Console.WriteLine(reviewer == null);
 
         #endregion
+
+        #region Task 13
+        Book? book = null;
+        Console.WriteLine(book?.Title);
+
+        #endregion
     }
 }
