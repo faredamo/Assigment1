@@ -84,5 +84,14 @@ class Program
         Console.WriteLine(convertedPages);
 
         #endregion
+
+        #region Task 9
+        int bookPages = 464;
+        string pageString = bookPages.ToString();
+
+        Console.WriteLine(pageString);
+        Console.WriteLine(pageString.GetType());
+
+        #endregion
     }
 }
