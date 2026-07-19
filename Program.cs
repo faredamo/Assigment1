@@ -126,5 +126,12 @@ class Program
         Console.WriteLine(book?.Title);
 
         #endregion
+
+        #region Task 15
+        string? name = "Ahmed";
+        string confirmedName = name!;
+        Console.WriteLine(confirmedName);
+
+        #endregion
     }
 }
